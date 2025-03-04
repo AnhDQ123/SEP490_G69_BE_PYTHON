@@ -1,0 +1,467 @@
+user_id,item_id,product_name,rating,quantity,purchased
+1,101,Spicy BBQ Chicken Pizza,2,4,1
+1,118,Fluffy Blueberry Pancakes,0,0,0
+1,116,Loaded Cheesy French Fries,5,4,1
+1,102,Double Cheese Beef Burger,0,0,0
+1,109,Grilled Ribeye Steak with Garlic Butter,0,0,0
+1,106,Salmon & Tuna Sushi Platter,3,4,1
+1,112,Glazed Strawberry Donuts,4,4,1
+1,104,Creamy Alfredo Pasta with Shrimp,1,3,1
+1,119,New York Style Cheesecake,5,1,1
+1,117,Vanilla & Oreo Milkshake,2,4,1
+1,114,Authentic Japanese Ramen Noodles,0,0,0
+2,114,Authentic Japanese Ramen Noodles,0,0,0
+2,116,Loaded Cheesy French Fries,2,2,1
+2,105,Crispy Korean Fried Chicken,4,1,1
+2,109,Grilled Ribeye Steak with Garlic Butter,5,4,1
+2,110,Mexican Spicy Beef Tacos,5,2,1
+2,118,Fluffy Blueberry Pancakes,5,4,1
+2,106,Salmon & Tuna Sushi Platter,0,0,0
+2,111,Whole Wheat Avocado Sandwich,4,1,1
+2,117,Vanilla & Oreo Milkshake,1,1,1
+3,104,Creamy Alfredo Pasta with Shrimp,4,3,1
+3,114,Authentic Japanese Ramen Noodles,0,0,0
+3,106,Salmon & Tuna Sushi Platter,0,0,0
+3,120,Freshly Squeezed Orange Juice,5,3,1
+3,102,Double Cheese Beef Burger,4,4,1
+4,112,Glazed Strawberry Donuts,0,0,0
+4,108,Premium Arabica Espresso Coffee,4,2,1
+4,109,Grilled Ribeye Steak with Garlic Butter,5,3,1
+4,104,Creamy Alfredo Pasta with Shrimp,5,3,1
+4,106,Salmon & Tuna Sushi Platter,3,1,1
+4,102,Double Cheese Beef Burger,4,1,1
+4,113,Classic New York Hot Dog,3,3,1
+4,116,Loaded Cheesy French Fries,4,2,1
+4,111,Whole Wheat Avocado Sandwich,0,0,0
+4,107,Belgian Chocolate Ice Cream,5,2,1
+5,112,Glazed Strawberry Donuts,4,4,1
+5,102,Double Cheese Beef Burger,3,2,1
+5,115,Slow-Cooked BBQ Pork Ribs,0,0,0
+5,108,Premium Arabica Espresso Coffee,1,2,1
+5,105,Crispy Korean Fried Chicken,0,0,0
+5,117,Vanilla & Oreo Milkshake,0,0,0
+5,110,Mexican Spicy Beef Tacos,0,0,0
+5,106,Salmon & Tuna Sushi Platter,5,4,1
+6,109,Grilled Ribeye Steak with Garlic Butter,3,3,1
+6,103,Caesar Salad with Grilled Chicken,0,0,0
+6,116,Loaded Cheesy French Fries,5,3,1
+6,118,Fluffy Blueberry Pancakes,4,4,1
+6,113,Classic New York Hot Dog,3,4,1
+7,111,Whole Wheat Avocado Sandwich,0,0,0
+7,105,Crispy Korean Fried Chicken,4,1,1
+7,104,Creamy Alfredo Pasta with Shrimp,0,0,0
+7,120,Freshly Squeezed Orange Juice,4,1,1
+7,112,Glazed Strawberry Donuts,5,4,1
+7,106,Salmon & Tuna Sushi Platter,3,3,1
+7,114,Authentic Japanese Ramen Noodles,0,0,0
+8,110,Mexican Spicy Beef Tacos,5,1,1
+8,113,Classic New York Hot Dog,4,1,1
+8,112,Glazed Strawberry Donuts,4,1,1
+8,107,Belgian Chocolate Ice Cream,5,4,1
+8,114,Authentic Japanese Ramen Noodles,4,4,1
+8,102,Double Cheese Beef Burger,3,1,1
+8,105,Crispy Korean Fried Chicken,0,0,0
+9,116,Loaded Cheesy French Fries,3,4,1
+9,112,Glazed Strawberry Donuts,3,4,1
+9,115,Slow-Cooked BBQ Pork Ribs,0,0,0
+9,120,Freshly Squeezed Orange Juice,4,2,1
+9,110,Mexican Spicy Beef Tacos,5,2,1
+9,109,Grilled Ribeye Steak with Garlic Butter,5,2,1
+9,107,Belgian Chocolate Ice Cream,3,4,1
+10,106,Salmon & Tuna Sushi Platter,3,4,1
+10,118,Fluffy Blueberry Pancakes,0,0,0
+10,116,Loaded Cheesy French Fries,0,0,0
+10,109,Grilled Ribeye Steak with Garlic Butter,2,2,1
+10,111,Whole Wheat Avocado Sandwich,1,1,1
+10,110,Mexican Spicy Beef Tacos,5,2,1
+10,102,Double Cheese Beef Burger,0,0,0
+10,108,Premium Arabica Espresso Coffee,5,4,1
+10,119,New York Style Cheesecake,0,0,0
+10,115,Slow-Cooked BBQ Pork Ribs,5,4,1
+10,107,Belgian Chocolate Ice Cream,1,4,1
+10,120,Freshly Squeezed Orange Juice,4,3,1
+10,113,Classic New York Hot Dog,4,2,1
+11,116,Loaded Cheesy French Fries,4,2,1
+11,114,Authentic Japanese Ramen Noodles,3,3,1
+11,102,Double Cheese Beef Burger,4,4,1
+11,103,Caesar Salad with Grilled Chicken,5,2,1
+11,109,Grilled Ribeye Steak with Garlic Butter,4,2,1
+11,107,Belgian Chocolate Ice Cream,3,1,1
+12,111,Whole Wheat Avocado Sandwich,5,2,1
+12,103,Caesar Salad with Grilled Chicken,5,3,1
+12,113,Classic New York Hot Dog,3,4,1
+12,104,Creamy Alfredo Pasta with Shrimp,0,0,0
+12,117,Vanilla & Oreo Milkshake,0,0,0
+12,107,Belgian Chocolate Ice Cream,5,3,1
+12,116,Loaded Cheesy French Fries,1,2,1
+12,108,Premium Arabica Espresso Coffee,4,1,1
+12,118,Fluffy Blueberry Pancakes,4,4,1
+12,106,Salmon & Tuna Sushi Platter,0,0,0
+12,102,Double Cheese Beef Burger,4,1,1
+12,115,Slow-Cooked BBQ Pork Ribs,5,3,1
+13,106,Salmon & Tuna Sushi Platter,4,2,1
+13,107,Belgian Chocolate Ice Cream,3,4,1
+13,112,Glazed Strawberry Donuts,1,1,1
+13,111,Whole Wheat Avocado Sandwich,3,1,1
+13,117,Vanilla & Oreo Milkshake,4,3,1
+13,116,Loaded Cheesy French Fries,0,0,0
+13,109,Grilled Ribeye Steak with Garlic Butter,3,4,1
+13,119,New York Style Cheesecake,5,1,1
+13,108,Premium Arabica Espresso Coffee,4,3,1
+13,101,Spicy BBQ Chicken Pizza,0,0,0
+13,113,Classic New York Hot Dog,3,3,1
+13,103,Caesar Salad with Grilled Chicken,0,0,0
+13,114,Authentic Japanese Ramen Noodles,0,0,0
+13,120,Freshly Squeezed Orange Juice,0,0,0
+14,120,Freshly Squeezed Orange Juice,5,4,1
+14,106,Salmon & Tuna Sushi Platter,1,3,1
+14,102,Double Cheese Beef Burger,0,0,0
+14,112,Glazed Strawberry Donuts,0,0,0
+14,107,Belgian Chocolate Ice Cream,0,0,0
+14,101,Spicy BBQ Chicken Pizza,3,1,1
+14,103,Caesar Salad with Grilled Chicken,4,4,1
+14,108,Premium Arabica Espresso Coffee,5,1,1
+15,106,Salmon & Tuna Sushi Platter,0,0,0
+15,102,Double Cheese Beef Burger,0,0,0
+15,118,Fluffy Blueberry Pancakes,2,1,1
+15,101,Spicy BBQ Chicken Pizza,5,3,1
+15,108,Premium Arabica Espresso Coffee,3,2,1
+15,111,Whole Wheat Avocado Sandwich,4,1,1
+15,113,Classic New York Hot Dog,0,0,0
+16,104,Creamy Alfredo Pasta with Shrimp,1,1,1
+16,120,Freshly Squeezed Orange Juice,4,3,1
+16,117,Vanilla & Oreo Milkshake,3,1,1
+16,118,Fluffy Blueberry Pancakes,4,2,1
+16,101,Spicy BBQ Chicken Pizza,3,2,1
+16,115,Slow-Cooked BBQ Pork Ribs,0,0,0
+16,103,Caesar Salad with Grilled Chicken,3,1,1
+16,106,Salmon & Tuna Sushi Platter,5,2,1
+16,112,Glazed Strawberry Donuts,4,2,1
+16,105,Crispy Korean Fried Chicken,0,0,0
+17,118,Fluffy Blueberry Pancakes,5,1,1
+17,120,Freshly Squeezed Orange Juice,5,4,1
+17,111,Whole Wheat Avocado Sandwich,5,3,1
+17,104,Creamy Alfredo Pasta with Shrimp,4,1,1
+17,102,Double Cheese Beef Burger,4,3,1
+17,110,Mexican Spicy Beef Tacos,3,4,1
+17,105,Crispy Korean Fried Chicken,0,0,0
+17,106,Salmon & Tuna Sushi Platter,0,0,0
+17,117,Vanilla & Oreo Milkshake,0,0,0
+17,108,Premium Arabica Espresso Coffee,3,4,1
+17,115,Slow-Cooked BBQ Pork Ribs,0,0,0
+17,119,New York Style Cheesecake,4,4,1
+17,116,Loaded Cheesy French Fries,4,1,1
+18,103,Caesar Salad with Grilled Chicken,5,2,1
+18,113,Classic New York Hot Dog,2,3,1
+18,102,Double Cheese Beef Burger,0,0,0
+18,110,Mexican Spicy Beef Tacos,0,0,0
+18,107,Belgian Chocolate Ice Cream,1,2,1
+18,119,New York Style Cheesecake,0,0,0
+18,114,Authentic Japanese Ramen Noodles,1,2,1
+18,115,Slow-Cooked BBQ Pork Ribs,0,0,0
+18,117,Vanilla & Oreo Milkshake,0,0,0
+18,112,Glazed Strawberry Donuts,5,4,1
+18,116,Loaded Cheesy French Fries,4,1,1
+18,101,Spicy BBQ Chicken Pizza,5,3,1
+19,120,Freshly Squeezed Orange Juice,0,0,0
+19,111,Whole Wheat Avocado Sandwich,3,3,1
+19,102,Double Cheese Beef Burger,2,4,1
+19,107,Belgian Chocolate Ice Cream,4,1,1
+19,115,Slow-Cooked BBQ Pork Ribs,3,1,1
+19,104,Creamy Alfredo Pasta with Shrimp,0,0,0
+19,108,Premium Arabica Espresso Coffee,5,1,1
+19,112,Glazed Strawberry Donuts,0,0,0
+19,114,Authentic Japanese Ramen Noodles,4,2,1
+20,105,Crispy Korean Fried Chicken,5,4,1
+20,112,Glazed Strawberry Donuts,2,4,1
+20,110,Mexican Spicy Beef Tacos,0,0,0
+20,117,Vanilla & Oreo Milkshake,5,2,1
+20,114,Authentic Japanese Ramen Noodles,5,2,1
+20,116,Loaded Cheesy French Fries,5,2,1
+20,113,Classic New York Hot Dog,3,3,1
+20,107,Belgian Chocolate Ice Cream,3,3,1
+20,108,Premium Arabica Espresso Coffee,0,0,0
+20,101,Spicy BBQ Chicken Pizza,3,2,1
+21,109,Grilled Ribeye Steak with Garlic Butter,5,2,1
+21,107,Belgian Chocolate Ice Cream,0,0,0
+21,101,Spicy BBQ Chicken Pizza,0,0,0
+21,106,Salmon & Tuna Sushi Platter,0,0,0
+21,118,Fluffy Blueberry Pancakes,0,0,0
+21,112,Glazed Strawberry Donuts,3,3,1
+21,119,New York Style Cheesecake,5,1,1
+21,105,Crispy Korean Fried Chicken,2,4,1
+21,114,Authentic Japanese Ramen Noodles,0,0,0
+21,115,Slow-Cooked BBQ Pork Ribs,0,0,0
+21,110,Mexican Spicy Beef Tacos,0,0,0
+21,102,Double Cheese Beef Burger,3,4,1
+22,108,Premium Arabica Espresso Coffee,0,0,0
+22,116,Loaded Cheesy French Fries,0,0,0
+22,117,Vanilla & Oreo Milkshake,0,0,0
+22,104,Creamy Alfredo Pasta with Shrimp,4,2,1
+22,105,Crispy Korean Fried Chicken,3,1,1
+22,101,Spicy BBQ Chicken Pizza,5,2,1
+22,120,Freshly Squeezed Orange Juice,4,3,1
+23,111,Whole Wheat Avocado Sandwich,0,0,0
+23,119,New York Style Cheesecake,5,2,1
+23,107,Belgian Chocolate Ice Cream,4,2,1
+23,116,Loaded Cheesy French Fries,3,2,1
+23,113,Classic New York Hot Dog,0,0,0
+23,114,Authentic Japanese Ramen Noodles,5,4,1
+23,117,Vanilla & Oreo Milkshake,2,4,1
+23,120,Freshly Squeezed Orange Juice,4,3,1
+23,104,Creamy Alfredo Pasta with Shrimp,0,0,0
+23,106,Salmon & Tuna Sushi Platter,3,2,1
+24,107,Belgian Chocolate Ice Cream,1,2,1
+24,120,Freshly Squeezed Orange Juice,5,2,1
+24,114,Authentic Japanese Ramen Noodles,3,3,1
+24,109,Grilled Ribeye Steak with Garlic Butter,4,1,1
+24,101,Spicy BBQ Chicken Pizza,3,3,1
+24,117,Vanilla & Oreo Milkshake,0,0,0
+24,119,New York Style Cheesecake,0,0,0
+24,104,Creamy Alfredo Pasta with Shrimp,4,2,1
+24,118,Fluffy Blueberry Pancakes,5,4,1
+24,116,Loaded Cheesy French Fries,0,0,0
+24,106,Salmon & Tuna Sushi Platter,5,1,1
+24,105,Crispy Korean Fried Chicken,0,0,0
+24,112,Glazed Strawberry Donuts,3,2,1
+25,119,New York Style Cheesecake,5,2,1
+25,113,Classic New York Hot Dog,4,2,1
+25,110,Mexican Spicy Beef Tacos,3,1,1
+25,107,Belgian Chocolate Ice Cream,5,1,1
+25,116,Loaded Cheesy French Fries,3,3,1
+26,119,New York Style Cheesecake,3,3,1
+26,120,Freshly Squeezed Orange Juice,3,2,1
+26,112,Glazed Strawberry Donuts,3,3,1
+26,105,Crispy Korean Fried Chicken,3,4,1
+26,102,Double Cheese Beef Burger,0,0,0
+26,118,Fluffy Blueberry Pancakes,5,1,1
+26,114,Authentic Japanese Ramen Noodles,4,2,1
+26,109,Grilled Ribeye Steak with Garlic Butter,3,4,1
+26,111,Whole Wheat Avocado Sandwich,5,2,1
+26,115,Slow-Cooked BBQ Pork Ribs,1,1,1
+26,101,Spicy BBQ Chicken Pizza,3,3,1
+26,106,Salmon & Tuna Sushi Platter,0,0,0
+26,103,Caesar Salad with Grilled Chicken,0,0,0
+26,116,Loaded Cheesy French Fries,0,0,0
+27,107,Belgian Chocolate Ice Cream,3,2,1
+27,106,Salmon & Tuna Sushi Platter,0,0,0
+27,101,Spicy BBQ Chicken Pizza,0,0,0
+27,117,Vanilla & Oreo Milkshake,0,0,0
+27,109,Grilled Ribeye Steak with Garlic Butter,0,0,0
+27,116,Loaded Cheesy French Fries,4,3,1
+27,118,Fluffy Blueberry Pancakes,4,4,1
+27,114,Authentic Japanese Ramen Noodles,4,4,1
+28,104,Creamy Alfredo Pasta with Shrimp,4,2,1
+28,107,Belgian Chocolate Ice Cream,1,1,1
+28,102,Double Cheese Beef Burger,3,4,1
+28,114,Authentic Japanese Ramen Noodles,5,3,1
+28,119,New York Style Cheesecake,0,0,0
+28,116,Loaded Cheesy French Fries,4,1,1
+28,111,Whole Wheat Avocado Sandwich,5,2,1
+28,115,Slow-Cooked BBQ Pork Ribs,0,0,0
+29,114,Authentic Japanese Ramen Noodles,5,3,1
+29,110,Mexican Spicy Beef Tacos,3,2,1
+29,117,Vanilla & Oreo Milkshake,0,0,0
+29,109,Grilled Ribeye Steak with Garlic Butter,1,3,1
+29,105,Crispy Korean Fried Chicken,0,0,0
+29,104,Creamy Alfredo Pasta with Shrimp,4,3,1
+29,112,Glazed Strawberry Donuts,5,4,1
+29,108,Premium Arabica Espresso Coffee,0,0,0
+29,119,New York Style Cheesecake,5,2,1
+29,103,Caesar Salad with Grilled Chicken,3,3,1
+29,113,Classic New York Hot Dog,3,2,1
+29,101,Spicy BBQ Chicken Pizza,5,1,1
+29,115,Slow-Cooked BBQ Pork Ribs,5,1,1
+30,110,Mexican Spicy Beef Tacos,3,4,1
+30,108,Premium Arabica Espresso Coffee,2,2,1
+30,105,Crispy Korean Fried Chicken,2,4,1
+30,109,Grilled Ribeye Steak with Garlic Butter,4,4,1
+30,111,Whole Wheat Avocado Sandwich,0,0,0
+30,104,Creamy Alfredo Pasta with Shrimp,0,0,0
+30,107,Belgian Chocolate Ice Cream,3,3,1
+30,116,Loaded Cheesy French Fries,5,4,1
+30,112,Glazed Strawberry Donuts,0,0,0
+30,113,Classic New York Hot Dog,3,1,1
+30,120,Freshly Squeezed Orange Juice,4,3,1
+30,106,Salmon & Tuna Sushi Platter,0,0,0
+31,119,New York Style Cheesecake,4,1,1
+31,120,Freshly Squeezed Orange Juice,4,2,1
+31,108,Premium Arabica Espresso Coffee,2,1,1
+31,118,Fluffy Blueberry Pancakes,4,3,1
+31,103,Caesar Salad with Grilled Chicken,0,0,0
+31,113,Classic New York Hot Dog,4,4,1
+31,109,Grilled Ribeye Steak with Garlic Butter,5,1,1
+31,101,Spicy BBQ Chicken Pizza,1,2,1
+31,110,Mexican Spicy Beef Tacos,3,4,1
+31,112,Glazed Strawberry Donuts,2,2,1
+31,102,Double Cheese Beef Burger,0,0,0
+31,107,Belgian Chocolate Ice Cream,3,2,1
+32,111,Whole Wheat Avocado Sandwich,5,2,1
+32,101,Spicy BBQ Chicken Pizza,5,3,1
+32,105,Crispy Korean Fried Chicken,0,0,0
+32,119,New York Style Cheesecake,4,1,1
+32,104,Creamy Alfredo Pasta with Shrimp,0,0,0
+32,115,Slow-Cooked BBQ Pork Ribs,0,0,0
+32,103,Caesar Salad with Grilled Chicken,0,0,0
+32,110,Mexican Spicy Beef Tacos,1,3,1
+32,106,Salmon & Tuna Sushi Platter,0,0,0
+32,112,Glazed Strawberry Donuts,5,3,1
+32,107,Belgian Chocolate Ice Cream,2,1,1
+33,112,Glazed Strawberry Donuts,5,4,1
+33,118,Fluffy Blueberry Pancakes,0,0,0
+33,109,Grilled Ribeye Steak with Garlic Butter,4,3,1
+33,106,Salmon & Tuna Sushi Platter,3,4,1
+33,119,New York Style Cheesecake,3,1,1
+33,107,Belgian Chocolate Ice Cream,3,1,1
+33,113,Classic New York Hot Dog,3,2,1
+33,117,Vanilla & Oreo Milkshake,0,0,0
+33,120,Freshly Squeezed Orange Juice,0,0,0
+34,109,Grilled Ribeye Steak with Garlic Butter,5,1,1
+34,101,Spicy BBQ Chicken Pizza,0,0,0
+34,118,Fluffy Blueberry Pancakes,4,2,1
+34,117,Vanilla & Oreo Milkshake,3,4,1
+34,119,New York Style Cheesecake,5,1,1
+35,103,Caesar Salad with Grilled Chicken,5,3,1
+35,117,Vanilla & Oreo Milkshake,1,3,1
+35,104,Creamy Alfredo Pasta with Shrimp,2,3,1
+35,118,Fluffy Blueberry Pancakes,2,3,1
+35,120,Freshly Squeezed Orange Juice,3,2,1
+35,115,Slow-Cooked BBQ Pork Ribs,3,2,1
+35,113,Classic New York Hot Dog,0,0,0
+35,101,Spicy BBQ Chicken Pizza,3,4,1
+35,107,Belgian Chocolate Ice Cream,4,1,1
+35,114,Authentic Japanese Ramen Noodles,0,0,0
+35,110,Mexican Spicy Beef Tacos,0,0,0
+36,114,Authentic Japanese Ramen Noodles,2,4,1
+36,118,Fluffy Blueberry Pancakes,3,3,1
+36,120,Freshly Squeezed Orange Juice,4,1,1
+36,105,Crispy Korean Fried Chicken,0,0,0
+36,109,Grilled Ribeye Steak with Garlic Butter,4,1,1
+36,106,Salmon & Tuna Sushi Platter,4,3,1
+36,108,Premium Arabica Espresso Coffee,0,0,0
+36,111,Whole Wheat Avocado Sandwich,4,1,1
+36,103,Caesar Salad with Grilled Chicken,0,0,0
+36,107,Belgian Chocolate Ice Cream,5,2,1
+36,116,Loaded Cheesy French Fries,2,4,1
+37,118,Fluffy Blueberry Pancakes,3,2,1
+37,107,Belgian Chocolate Ice Cream,5,2,1
+37,106,Salmon & Tuna Sushi Platter,1,3,1
+37,102,Double Cheese Beef Burger,3,4,1
+37,111,Whole Wheat Avocado Sandwich,4,1,1
+37,103,Caesar Salad with Grilled Chicken,5,3,1
+37,112,Glazed Strawberry Donuts,5,2,1
+37,113,Classic New York Hot Dog,0,0,0
+37,105,Crispy Korean Fried Chicken,0,0,0
+38,118,Fluffy Blueberry Pancakes,3,2,1
+38,116,Loaded Cheesy French Fries,5,4,1
+38,114,Authentic Japanese Ramen Noodles,5,3,1
+38,112,Glazed Strawberry Donuts,1,1,1
+38,111,Whole Wheat Avocado Sandwich,5,2,1
+38,120,Freshly Squeezed Orange Juice,3,1,1
+38,108,Premium Arabica Espresso Coffee,3,3,1
+39,113,Classic New York Hot Dog,5,4,1
+39,118,Fluffy Blueberry Pancakes,5,4,1
+39,117,Vanilla & Oreo Milkshake,5,1,1
+39,101,Spicy BBQ Chicken Pizza,0,0,0
+39,120,Freshly Squeezed Orange Juice,5,3,1
+39,106,Salmon & Tuna Sushi Platter,0,0,0
+39,107,Belgian Chocolate Ice Cream,0,0,0
+39,104,Creamy Alfredo Pasta with Shrimp,5,1,1
+39,114,Authentic Japanese Ramen Noodles,3,4,1
+39,119,New York Style Cheesecake,4,1,1
+39,111,Whole Wheat Avocado Sandwich,3,3,1
+39,105,Crispy Korean Fried Chicken,1,1,1
+39,116,Loaded Cheesy French Fries,0,0,0
+40,106,Salmon & Tuna Sushi Platter,4,3,1
+40,114,Authentic Japanese Ramen Noodles,0,0,0
+40,101,Spicy BBQ Chicken Pizza,3,1,1
+40,118,Fluffy Blueberry Pancakes,0,0,0
+40,108,Premium Arabica Espresso Coffee,0,0,0
+40,104,Creamy Alfredo Pasta with Shrimp,5,3,1
+40,102,Double Cheese Beef Burger,3,2,1
+40,115,Slow-Cooked BBQ Pork Ribs,2,1,1
+40,117,Vanilla & Oreo Milkshake,4,4,1
+40,119,New York Style Cheesecake,5,1,1
+41,109,Grilled Ribeye Steak with Garlic Butter,5,4,1
+41,108,Premium Arabica Espresso Coffee,4,3,1
+41,117,Vanilla & Oreo Milkshake,3,4,1
+41,105,Crispy Korean Fried Chicken,5,4,1
+41,107,Belgian Chocolate Ice Cream,5,3,1
+41,103,Caesar Salad with Grilled Chicken,0,0,0
+41,102,Double Cheese Beef Burger,3,3,1
+41,116,Loaded Cheesy French Fries,0,0,0
+41,114,Authentic Japanese Ramen Noodles,2,1,1
+41,113,Classic New York Hot Dog,3,1,1
+42,108,Premium Arabica Espresso Coffee,5,3,1
+42,117,Vanilla & Oreo Milkshake,4,2,1
+42,110,Mexican Spicy Beef Tacos,3,1,1
+42,109,Grilled Ribeye Steak with Garlic Butter,5,3,1
+42,105,Crispy Korean Fried Chicken,3,1,1
+42,120,Freshly Squeezed Orange Juice,2,4,1
+42,116,Loaded Cheesy French Fries,0,0,0
+42,113,Classic New York Hot Dog,1,1,1
+42,101,Spicy BBQ Chicken Pizza,0,0,0
+42,103,Caesar Salad with Grilled Chicken,3,4,1
+42,112,Glazed Strawberry Donuts,4,2,1
+42,118,Fluffy Blueberry Pancakes,0,0,0
+42,106,Salmon & Tuna Sushi Platter,3,2,1
+43,114,Authentic Japanese Ramen Noodles,0,0,0
+43,102,Double Cheese Beef Burger,5,1,1
+43,115,Slow-Cooked BBQ Pork Ribs,0,0,0
+43,116,Loaded Cheesy French Fries,5,1,1
+43,113,Classic New York Hot Dog,5,2,1
+43,111,Whole Wheat Avocado Sandwich,2,2,1
+44,112,Glazed Strawberry Donuts,0,0,0
+44,102,Double Cheese Beef Burger,1,1,1
+44,107,Belgian Chocolate Ice Cream,0,0,0
+44,105,Crispy Korean Fried Chicken,0,0,0
+44,114,Authentic Japanese Ramen Noodles,2,2,1
+44,119,New York Style Cheesecake,0,0,0
+44,110,Mexican Spicy Beef Tacos,3,1,1
+44,104,Creamy Alfredo Pasta with Shrimp,3,3,1
+44,118,Fluffy Blueberry Pancakes,0,0,0
+44,116,Loaded Cheesy French Fries,1,2,1
+45,101,Spicy BBQ Chicken Pizza,4,1,1
+45,105,Crispy Korean Fried Chicken,0,0,0
+45,108,Premium Arabica Espresso Coffee,3,3,1
+45,120,Freshly Squeezed Orange Juice,4,1,1
+45,117,Vanilla & Oreo Milkshake,5,3,1
+45,112,Glazed Strawberry Donuts,5,3,1
+45,102,Double Cheese Beef Burger,3,4,1
+45,119,New York Style Cheesecake,2,2,1
+45,109,Grilled Ribeye Steak with Garlic Butter,5,4,1
+45,103,Caesar Salad with Grilled Chicken,0,0,0
+45,113,Classic New York Hot Dog,0,0,0
+45,114,Authentic Japanese Ramen Noodles,5,2,1
+46,106,Salmon & Tuna Sushi Platter,4,2,1
+46,111,Whole Wheat Avocado Sandwich,0,0,0
+46,118,Fluffy Blueberry Pancakes,0,0,0
+46,120,Freshly Squeezed Orange Juice,5,4,1
+46,110,Mexican Spicy Beef Tacos,3,1,1
+47,112,Glazed Strawberry Donuts,5,3,1
+47,117,Vanilla & Oreo Milkshake,0,0,0
+47,114,Authentic Japanese Ramen Noodles,0,0,0
+47,111,Whole Wheat Avocado Sandwich,4,2,1
+47,118,Fluffy Blueberry Pancakes,3,1,1
+47,119,New York Style Cheesecake,5,3,1
+48,102,Double Cheese Beef Burger,4,4,1
+48,116,Loaded Cheesy French Fries,1,3,1
+48,120,Freshly Squeezed Orange Juice,5,4,1
+48,114,Authentic Japanese Ramen Noodles,5,1,1
+48,119,New York Style Cheesecake,1,4,1
+49,117,Vanilla & Oreo Milkshake,3,2,1
+49,108,Premium Arabica Espresso Coffee,4,2,1
+49,113,Classic New York Hot Dog,4,1,1
+49,111,Whole Wheat Avocado Sandwich,0,0,0
+49,116,Loaded Cheesy French Fries,0,0,0
+49,120,Freshly Squeezed Orange Juice,0,0,0
+49,119,New York Style Cheesecake,3,2,1
+49,106,Salmon & Tuna Sushi Platter,4,2,1
+49,103,Caesar Salad with Grilled Chicken,4,3,1
+49,107,Belgian Chocolate Ice Cream,5,4,1
+50,109,Grilled Ribeye Steak with Garlic Butter,2,1,1
+50,112,Glazed Strawberry Donuts,0,0,0
+50,104,Creamy Alfredo Pasta with Shrimp,1,2,1
+50,111,Whole Wheat Avocado Sandwich,1,3,1
+50,103,Caesar Salad with Grilled Chicken,5,4,1
+50,120,Freshly Squeezed Orange Juice,5,1,1
