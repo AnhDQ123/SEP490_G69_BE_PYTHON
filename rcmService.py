@@ -10,7 +10,7 @@ from flask import Flask, jsonify, request
 from flask_cors import CORS
 
 API_BASE_URL = "http://localhost:8080/api/product"
-requests_cache.install_cache('api_cache', expire_after=300)
+requests_cache.install_cache('api_cache', expire_after=100)
 
 app = Flask(__name__)
 CORS(app)
@@ -118,7 +118,9 @@ def get_hybrid_recommendations(user_id, top_n=10, product_type="FRESH"):
 
     return [{"productId": pid} for pid, _ in final_recs[:top_n]]
 
-
+#name
+#input
+#out
 def get_popular_products(top_n, product_type):
     if "type" not in df_products.columns or "id" not in df_products.columns:
         return []
@@ -175,7 +177,5 @@ def get_recommendations(user_id, product_type, top_n):
     recommended_products = get_hybrid_recommendations(user_id, top_n, product_type)
     return jsonify(recommended_products if recommended_products else [])
 
-
-
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5001, debug=True)
+    app.run(host="0.0.0.0", port=5000, debug=True)
