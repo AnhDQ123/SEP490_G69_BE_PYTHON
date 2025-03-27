@@ -834,7 +834,368 @@ InputExample(texts=['Phở Hà Nội', 'Phở cuốn Hà Nội'], label=0.85),
     InputExample(texts=['Thắng cố Hà Giang', 'Thắng cố Lào Cai'], label=0.92),
     InputExample(texts=['Cá hồi Sapa', 'Cá tầm Sapa'], label=0.85),
     InputExample(texts=['Rượu ngô Bắc Hà', 'Rượu mận Mộc Châu'], label=0.78),
-    InputExample(texts=['Mật ong rừng Tây Bắc', 'Mật ong hoa cà phê'], label=0.8)
+    InputExample(texts=['Mật ong rừng Tây Bắc', 'Mật ong hoa cà phê'], label=0.8),
+InputExample(texts=['Sushi cá hồi', 'Sashimi cá hồi'], label=0.8),
+    InputExample(texts=['Nigiri tuna', 'Sashimi tuna'], label=0.85),
+    InputExample(texts=['Maki cuộn cá ngừ', 'Maki cuộn tôm tempura'], label=0.7),
+    InputExample(texts=['California roll', 'Spicy tuna roll'], label=0.75),
+    InputExample(texts=['Uni sushi', 'Ikura sushi'], label=0.6),
+    InputExample(texts=['Sushi trứng cá chuồn', 'Sushi trứng cá hồi'], label=0.9),
+    InputExample(texts=['Chirashi sushi', 'Kaisendon'], label=0.65),
+    InputExample(texts=['Saba sushi', 'Aji sushi'], label=0.88),
+    InputExample(texts=['Temaki hand roll', 'Hosomaki thin roll'], label=0.78),
+    InputExample(texts=['Futomaki thick roll', 'Uramaki inside-out roll'], label=0.82),
+
+    # 2. MÓN MÌ (40 cặp)
+    InputExample(texts=['Ramen tonkotsu', 'Ramen shoyu'], label=0.9),
+    InputExample(texts=['Udon mềm', 'Soba mì kiều mạch'], label=0.7),
+    InputExample(texts=['Tsukemen ramen', 'Abura soba'], label=0.8),
+    InputExample(texts=['Ramen miso', 'Ramen curry'], label=0.85),
+    InputExample(texts=['Yakisoba xào', 'Udon xào'], label=0.75),
+    InputExample(texts=['Hiyashi chuka', 'Morioka reimen'], label=0.6),
+    InputExample(texts=['Somen lạnh', 'Hiyamugi'], label=0.92),
+    InputExample(texts=['Ramen Hakata', 'Ramen Sapporo'], label=0.88),
+
+    # 3. MÓN NƯỚNG (30 cặp)
+    InputExample(texts=['Yakitori gà', 'Tsukune viên gà'], label=0.9),
+    InputExample(texts=['Unagi nướng', 'Anago nướng'], label=0.85),
+    InputExample(texts=['Gyutan lưỡi bò', 'Kalbi sườn bò'], label=0.8),
+    InputExample(texts=['Butabara heo ba chỉ', 'Sanma cá thu nướng'], label=0.7),
+    InputExample(texts=['Tebasaki cánh gà', 'Kawa da vịt'], label=0.75),
+
+    # 4. MÓN LẨU (20 cặp)
+    InputExample(texts=['Shabu-shabu', 'Sukiyaki'], label=0.8),
+    InputExample(texts=['Chanko nabe', 'Motsunabe'], label=0.7),
+    InputExample(texts=['Yosenabe', 'Ishikari nabe'], label=0.85),
+    InputExample(texts=['Kimchi nabe', 'Mizutaki'], label=0.75),
+
+    # 5. MÓN CHIÊN (20 cặp)
+    InputExample(texts=['Tempura tôm', 'Tempura rau củ'], label=0.9),
+    InputExample(texts=['Karaage gà', 'Tatsuta-age'], label=0.88),
+    InputExample(texts=['Korokke', 'Tonkatsu'], label=0.7),
+    InputExample(texts=['Agedashi tofu', 'Ebi furai'], label=0.8),
+
+    # 6. CƠM & DONBURI (20 cặp)
+    InputExample(texts=['Gyudon cơm bò', 'Katsudon cơm cutlet'], label=0.8),
+    InputExample(texts=['Oyakodon cơm gà-trứng', 'Kaisendon cơm hải sản'], label=0.7),
+    InputExample(texts=['Unadon cơm lươn', 'Tendon tempura cơm'], label=0.75),
+    InputExample(texts=['Chahan cơm chiên', 'Omurice trứng cuộn'], label=0.6),
+
+    # 7. MÓN PHỤ & ĐỒ ĂN NHANH (20 cặp)
+    InputExample(texts=['Edamame', 'Moyashi giá'], label=0.65),
+    InputExample(texts=['Takoyaki bạch tuộc', 'Okonomiyaki'], label=0.7),
+    InputExample(texts=['Onigiri cá hồi', 'Onigiri umeboshi'], label=0.9),
+    InputExample(texts=['Gyoza chiên', 'Shumai hấp'], label=0.8),
+InputExample(texts=['Kimchi jjigae', 'Doenjang jjigae'], label=0.8),
+    InputExample(texts=['Sundubu jjigae', 'Cheonggukjang jjigae'], label=0.85),
+    InputExample(texts=['Budae jjigae', 'Kimchi jeongol'], label=0.75),
+    InputExample(texts=['Samgyetang', 'Gomtang'], label=0.7),
+    InputExample(texts=['Miyeokguk', 'Kongnamulguk'], label=0.9),
+    InputExample(texts=['Tteokguk', 'Manduguk'], label=0.88),
+    InputExample(texts=['Galbitang', 'Seolleongtang'], label=0.92),
+    InputExample(texts=['Yukgaejang', 'Gamjatang'], label=0.8),
+    InputExample(texts=['Haemul jjim', 'Gyeran jjim'], label=0.78),
+    InputExample(texts=['Dakbokkeumtang', 'Dakdoritang'], label=0.95),
+
+    # 2. MÓN THỊT NƯỚNG (50 cặp)
+    InputExample(texts=['Samgyeopsal', 'Hanjeongsal'], label=0.98),
+    InputExample(texts=['Galbi', 'Wang galbi'], label=0.95),
+    InputExample(texts=['Bulgogi', 'Jeyuk bokkeum'], label=0.9),
+    InputExample(texts=['Dakgalbi', 'Gopchang'], label=0.8),
+    InputExample(texts=['Deungsim gui', 'Chadolbaegi'], label=0.85),
+    InputExample(texts=['Makchang', 'Horumon'], label=0.92),
+    InputExample(texts=['Ogyeopsal', 'Samgyeopsal yangnyeom'], label=0.88),
+    InputExample(texts=['Dwaeji galbi', 'Saeng galbi'], label=0.9),
+    InputExample(texts=['Ggot sal', 'Moksal'], label=0.93),
+    InputExample(texts=['Ansan dakgalbi', 'Chuncheon dakgalbi'], label=0.96),
+
+    # 3. MÓN CƠM & MÌ (50 cặp)
+    InputExample(texts=['Bibimbap', 'Dolsot bibimbap'], label=0.95),
+    InputExample(texts=['Kimchi bokkeumbap', 'Gyeran bap'], label=0.8),
+    InputExample(texts=['Jjajangmyeon', 'Jjamppong'], label=0.7),
+    InputExample(texts=['Naengmyeon', 'Bibim naengmyeon'], label=0.9),
+    InputExample(texts=['Janchi guksu', 'Kalguksu'], label=0.85),
+    InputExample(texts=['Tteokbokki', 'Rabokki'], label=0.92),
+    InputExample(texts=['Japchae', 'Japchae bap'], label=0.78),
+    InputExample(texts=['Kongguksu', 'Milmakguksu'], label=0.65),
+    InputExample(texts=['Sujebi', 'Dongchimi guksu'], label=0.8),
+    InputExample(texts=['Hoedeopbap', 'Gimbap'], label=0.6),
+
+    # 4. MÓN BÁNH & ĐỒ ĂN NHẸ (50 cặp)
+    InputExample(texts=['Hotteok', 'Bungeoppang'], label=0.7),
+    InputExample(texts=['Tteok', 'Songpyeon'], label=0.8),
+    InputExample(texts=['Bindaetteok', 'Pajeon'], label=0.85),
+    InputExample(texts=['Gyeran bbang', 'Hoppang'], label=0.6),
+    InputExample(texts=['Yugwa', 'Gangjeong'], label=0.9),
+    InputExample(texts=['Hodugwaja', 'Yakgwa'], label=0.88),
+    InputExample(texts=['Chapssal donuts', 'Gyeongdan'], label=0.75),
+    InputExample(texts=['Bokssu bread', 'Soboro bread'], label=0.82),
+    InputExample(texts=['Hwajeon', 'Jeolpyeon'], label=0.93),
+    InputExample(texts=['Kkwabaegi', 'Honey bread'], label=0.7),
+
+    # 5. MÓN PHỤ & KIMCHI (50 cặp)
+    InputExample(texts=['Kimchi', 'Baechu kimchi'], label=0.98),
+    InputExample(texts=['Kkakdugi', 'Chonggak kimchi'], label=0.95),
+    InputExample(texts=['Oi muchim', 'Mu saengchae'], label=0.9),
+    InputExample(texts=['Sigeumchi namul', 'Kongnamul muchim'], label=0.88),
+    InputExample(texts=['Myeolchi bokkeum', 'Jangjorim'], label=0.8),
+    InputExample(texts=['Gamja jorim', 'Gyeran mari'], label=0.7),
+    InputExample(texts=['Eomuk bokkeum', 'Nakji bokkeum'], label=0.85),
+    InputExample(texts=['Samsaek jeon', 'Hobak jeon'], label=0.92),
+    InputExample(texts=['Ganjang gejang', 'Yangnyeom gejang'], label=0.9),
+    InputExample(texts=['Mareun anju', 'Jjim dak'], label=0.75),
+
+    # 6. ĐỒ UỐNG & TRÁNG MIỆNG (50 cặp)
+    InputExample(texts=['Sikhye', 'Sujeonggwa'], label=0.8),
+    InputExample(texts=['Bingsu', 'Patbingsu'], label=0.95),
+    InputExample(texts=['Misutgaru', 'Yulmu cha'], label=0.7),
+    InputExample(texts=['Omija cha', 'Ssanghwa cha'], label=0.85),
+    InputExample(texts=['Makgeolli', 'Dongdongju'], label=0.9),
+    InputExample(texts=['Soju', 'Cheongju'], label=0.6),
+    InputExample(texts=['Baekseju', 'Bokbunja ju'], label=0.88),
+    InputExample(texts=['Hodugwaja', 'Yakgwa'], label=0.92),
+    InputExample(texts=['Dasik', 'Yeot'], label=0.75),
+    InputExample(texts=['Hwachae', 'Sujeonggwa'], label=0.8),
+InputExample(texts=['Xoài cát Hòa Lộc', 'Xoài cát Chu'], label=0.95),
+    InputExample(texts=['Sầu riêng Ri6', 'Sầu riêng Monthong'], label=0.9),
+    InputExample(texts=['Chuối Laba Đà Lạt', 'Chuối tiêu hồng'], label=0.85),
+    InputExample(texts=['Vải thiều Thanh Hà', 'Vải thiều Lục Ngạn'], label=0.98),
+    InputExample(texts=['Bơ Booth 7', 'Bơ sáp Đắk Lắk'], label=0.92),
+    InputExample(texts=['Măng cụt Bến Tre', 'Măng cụt Châu Đốc'], label=0.93),
+    InputExample(texts=['Nhãn lồng Hưng Yên', 'Nhãn xuồng cơm vàng'], label=0.88),
+    InputExample(texts=['Thanh long ruột đỏ', 'Thanh long ruột trắng'], label=0.8),
+    InputExample(texts=['Cam sành', 'Cam xoàn'], label=0.85),
+    InputExample(texts=['Bưởi da xanh', 'Bưởi Diễn'], label=0.9),
+
+    # 2. TRÁI CÂY ĐẶC SẢN ĐÔNG NAM Á (50 cặp)
+    InputExample(texts=['Sầu riêng Musang King (Malaysia)', 'Sầu riêng Monthong (Thái Lan)'], label=0.88),
+    InputExample(texts=['Xoài Nam Dok Mai (Thái Lan)', 'Xoài Keo (Thái Lan)'], label=0.92),
+    InputExample(texts=['Măng cụt Thái Lan', 'Măng cụt Indonesia'], label=0.85),
+    InputExample(texts=['Chôm chôm Rongrien (Thái Lan)', 'Chôm chôm Malaysia'], label=0.9),
+    InputExample(texts=['Nhãn Long Nhãn (Đài Loan)', 'Nhãn Eyinco (Trung Quốc)'], label=0.8),
+
+    # 3. TRÁI CÂY ĐẶC SẢN CHÂU ÂU (50 cặp)
+    InputExample(texts=['Nho Crimson (Tây Ban Nha)', 'Nho Red Globe (Italy)'], label=0.9),
+    InputExample(texts=['Táo Envy (New Zealand)', 'Táo Pink Lady (Pháp)'], label=0.85),
+    InputExample(texts=['Cherry Regina (Chile)', 'Cherry Bing (Mỹ)'], label=0.88),
+    InputExample(texts=['Dâu tây Elsanta (Hà Lan)', 'Dâu tây Albion (Mỹ)'], label=0.82),
+    InputExample(texts=['Mận Victoria (Úc)', 'Mận Angeleno (Mỹ)'], label=0.75),
+
+    # 4. TRÁI CÂY ĐẶC SẢN CHÂU MỸ (50 cặp)
+    InputExample(texts=['Bơ Hass (Mexico)', 'Bơ Fuerte (Nam Phi)'], label=0.92),
+    InputExample(texts=['Cam Navel (Brazil)', 'Cam Cara Cara (Mỹ)'], label=0.85),
+    InputExample(texts=['Xoài Kent (Peru)', 'Xoài Ataulfo (Mexico)'], label=0.9),
+    InputExample(texts=['Nho Cotton Candy (Mỹ)', 'Nho Kyoho (Nhật)'], label=0.7),
+    InputExample(texts=['Việt quất Canada', 'Việt quất Mỹ'], label=0.95),
+
+    # 5. TRÁI CÂY ĐẶC SẢN KHÁC (50 cặp)
+    InputExample(texts=['Kiwi Zespri (New Zealand)', 'Kiwi Ý'], label=0.85),
+    InputExample(texts=['Lựu Wonderful (Mỹ)', 'Lựu Iran'], label=0.9),
+    InputExample(texts=['Dừa Malacca (Malaysia)', 'Dừa xiêm Bến Tre'], label=0.7),
+    InputExample(texts=['Chanh leo Colombia', 'Chanh dây Đài Loan'], label=0.88),
+    InputExample(texts=['Táo Rockit (New Zealand)', 'Táo Jazz (Úc)'], label=0.93),
+    InputExample(texts=['Gạo Tám Điện Biên', 'Gạo Séng Cù Điện Biên'], label=0.95),
+    InputExample(texts=['Chè Shan tuyết Mộc Châu', 'Chè Tà Xùa'], label=0.9),
+    InputExample(texts=['Mận hậu Bắc Hà', 'Mận tam hoa'], label=0.85),
+    InputExample(texts=['Đào Mẫu Sơn', 'Đào phai Lào Cai'], label=0.88),
+    InputExample(texts=['Mật ong rừng Tây Bắc', 'Mật ong hoa cà phê Tây Nguyên'], label=0.7),
+    InputExample(texts=['Thịt trâu gác bếp', 'Thịt bò một nắng'], label=0.8),
+    InputExample(texts=['Rượu táo mèo', 'Rượu ngô Bắc Hà'], label=0.75),
+    InputExample(texts=['Hồng không hạt Yên Bái', 'Hồng giòn Lào Cai'], label=0.92),
+
+    # 2. ĐÔNG BẮC (30 cặp)
+    InputExample(texts=['Chè đặc sản Thái Nguyên', 'Chè Tân Cương'], label=0.98),
+    InputExample(texts=['Bánh cooc mò Lạng Sơn', 'Bánh khảo Lạng Sơn'], label=0.85),
+    InputExample(texts=['Vải thiều Lục Ngạn', 'Vải thiều Thanh Hà'], label=0.96),
+    InputExample(texts=['Mỳ Chũ Bắc Giang', 'Mỳ gạo Hải Dương'], label=0.8),
+    InputExample(texts=['Tương ớt Bắc Giang', 'Tương đặc sản Hưng Yên'], label=0.7),
+    InputExample(texts=['Bưởi Diễn', 'Bưởi Đoan Hùng'], label=0.9),
+    InputExample(texts=['Na dai Lạng Sơn', 'Na trứng Hưng Yên'], label=0.88),
+
+    # 3. ĐỒNG BẰNG SÔNG HỒNG (50 cặp)
+    InputExample(texts=['Nhãn lồng Hưng Yên', 'Nhãn đường Phố Hiến'], label=0.97),
+    InputExample(texts=['Vải lai chín sớm Hải Dương', 'Vải thiều chính vụ'], label=0.85),
+    InputExample(texts=['Bánh đa Kế', 'Bánh đa nem Hưng Yên'], label=0.9),
+    InputExample(texts=['Cam Canh', 'Cam Vinh'], label=0.8),
+    InputExample(texts=['Bưởi Năm Roi', 'Bưởi da xanh'], label=0.75),
+    InputExample(texts=['Chuối ngự Nam Định', 'Chuối tiêu hồng'], label=0.88),
+    InputExample(texts=['Nem chua Thanh Hóa', 'Nem chua Ninh Bình'], label=0.92),
+    InputExample(texts=['Dừa sáp Cầu Báng', 'Dừa xiêm Bến Tre'], label=0.7),
+
+    # 4. BẮC TRUNG BỘ (30 cặp)
+    InputExample(texts=['Chè xanh Thái Hòa', 'Chè xanh Nghệ An'], label=0.9),
+    InputExample(texts=['Cam Vinh', 'Cam bù Hà Tĩnh'], label=0.95),
+    InputExample(texts=['Bánh gai Nghệ An', 'Bánh gai Tứ Kỳ'], label=0.85),
+    InputExample(texts=['Nước mắm Cát Hải', 'Nước mắm Lộc Hà'], label=0.8),
+    InputExample(texts=['Tôm chua Huế', 'Nem chua Huế'], label=0.7),
+    InputExample(texts=['Mắm ruốc Huế', 'Mắm tôm chua'], label=0.65),
+
+    # 5. TÂY NGUYÊN (50 cặp)
+    InputExample(texts=['Cà phê Arabica Đắk Lắk', 'Cà phê Robusta Gia Lai'], label=0.9),
+    InputExample(texts=['Hồ tiêu Chư Sê', 'Hồ tiêu Đắk Nông'], label=0.95),
+    InputExample(texts=['Bơ Booth 7', 'Bơ sáp Đắk Lắk'], label=0.92),
+    InputExample(texts=['Măng khô Kon Tum', 'Măng trúc Pleiku'], label=0.85),
+    InputExample(texts=['Rượu cần Đắk Lắk', 'Rượu ghè Tây Nguyên'], label=0.98),
+    InputExample(texts=['Mật ong hoa cà phê', 'Mật ong hoa điều'], label=0.88),
+    InputExample(texts=['Hạt điều Bình Phước', 'Hạt điều Đồng Nai'], label=0.93),
+
+    # 6. NAM TRUNG BỘ (30 cặp)
+    InputExample(texts=['Nho Ninh Thuận', 'Nho Phan Rang'], label=0.98),
+    InputExample(texts=['Tỏi Lý Sơn', 'Tỏi Phan Rang'], label=0.95),
+    InputExample(texts=['Yến sào Khánh Hòa', 'Yến sào Nha Trang'], label=0.99),
+    InputExample(texts=['Mắm nêm Phan Thiết', 'Mắm ruốc Huế'], label=0.7),
+    InputExample(texts=['Bánh tráng Phan Thiết', 'Bánh tráng Mũi Né'], label=0.9),
+    InputExample(texts=['Rượu nếp Than', 'Rượu nếp Phú Yên'], label=0.85),
+
+    # 7. TÂY NAM BỘ (50 cặp)
+    InputExample(texts=['Gạo ST25', 'Gạo ST24'], label=0.97),
+    InputExample(texts=['Xoài cát Hòa Lộc', 'Xoài cát Chu'], label=0.96),
+    InputExample(texts=['Bưởi Năm Roi', 'Bưởi da xanh'], label=0.85),
+    InputExample(texts=['Dừa sáp Cầu Báng', 'Dừa xiêm Bến Tre'], label=0.9),
+    InputExample(texts=['Mắm cá linh', 'Mắm bò hóc'], label=0.8),
+    InputExample(texts=['Bánh pía Sóc Trăng', 'Bánh in Sóc Trăng'], label=0.88),
+    InputExample(texts=['Khô cá sặc', 'Khô cá lóc'], label=0.75),
+    InputExample(texts=['Chuột đồng nướng lu', 'Chuột đồng xào lăn'], label=0.7),
+
+    # 8. ĐÔNG NAM BỘ (30 cặp)
+    InputExample(texts=['Bưởi Tân Triều', 'Bưởi da xanh'], label=0.9),
+    InputExample(texts=['Sầu riêng Ri6', 'Sầu riêng Monthong'], label=0.85),
+    InputExample(texts=['Măng cụt Bến Tre', 'Măng cụt Long Khánh'], label=0.92),
+    InputExample(texts=['Bánh tráng Trảng Bàng', 'Bánh tráng phơi sương'], label=0.95),
+    InputExample(texts=['Mãng cầu Bà Rịa', 'Mãng cầu Đồng Nai'], label=0.88),
+    InputExample(texts=['Hạt điều Bình Phước', 'Hạt điều rang muối'], label=0.8),
+    InputExample(texts=['Tôm sú loại 1', 'Tôm sú loại 2'], label=0.98),
+    InputExample(texts=['Tôm hùm Alaska', 'Tôm hùm baby'], label=0.85),
+    InputExample(texts=['Tôm thẻ chân trắng', 'Tôm thẻ chân vàng'], label=0.92),
+    InputExample(texts=['Tôm mũ ni', 'Tôm tích'], label=0.7),
+    InputExample(texts=['Tôm đỏ Argentina', 'Tôm đỏ Canada'], label=0.95),
+    InputExample(texts=['Tôm he Nhật Bản', 'Tôm he Trung Quốc'], label=0.88),
+
+    ## Tôm nước ngọt (20 cặp)
+    InputExample(texts=['Tôm càng xanh', 'Tôm càng đỏ'], label=0.9),
+    InputExample(texts=['Tôm rảo', 'Tôm bạc'], label=0.8),
+    InputExample(texts=['Tôm càng sông', 'Tôm càng hồ'], label=0.85),
+
+    ## Tôm đặc sản (20 cặp)
+    InputExample(texts=['Tôm hùm bông', 'Tôm hùm xanh'], label=0.93),
+    InputExample(texts=['Tôm mũ ni đen', 'Tôm mũ ni đỏ'], label=0.82),
+    InputExample(texts=['Tôm tít', 'Tôm vỗ'], label=0.75),
+
+    ## Tôm theo chế biến (30 cặp)
+    InputExample(texts=['Tôm sú tươi', 'Tôm sú đông lạnh'], label=0.7),
+    InputExample(texts=['Tôm khô', 'Tôm một nắng'], label=0.65),
+    InputExample(texts=['Tôm luộc', 'Tôm hấp'], label=0.95),
+
+    # 2. CUA (70 cặp)
+    ## Cua biển (30 cặp)
+    InputExample(texts=['Cua hoàng đế Alaska', 'Cua hoàng đế Nga'], label=0.96),
+    InputExample(texts=['Cua biển Cà Mau', 'Cua biển Nha Trang'], label=0.93),
+    InputExample(texts=['Cua gạch son', 'Cua thịt'], label=0.85),
+    InputExample(texts=['Cua lột', 'Cua nguyên con'], label=0.8),
+
+    ## Ghẹ (20 cặp)
+    InputExample(texts=['Ghẹ xanh', 'Ghẹ đỏ'], label=0.94),
+    InputExample(texts=['Ghẹ ba chấm', 'Ghẹ biển'], label=0.88),
+    InputExample(texts=['Ghẹ tươi', 'Ghẹ đông lạnh'], label=0.7),
+
+    ## Cua đặc sản (20 cặp)
+    InputExample(texts=['Cua đá', 'Cua huỳnh đế'], label=0.82),
+    InputExample(texts=['Cua lông', 'Cua mề'], label=0.75),
+    InputExample(texts=['Cua đồng', 'Cua bùn'], label=0.6),
+
+    # 3. MỰC (70 cặp)
+    ## Mực ống (20 cặp)
+    InputExample(texts=['Mực ống Đại Tây Dương', 'Mực ống Thái Bình Dương'], label=0.97),
+    InputExample(texts=['Mực ống tươi', 'Mực ống một nắng'], label=0.8),
+    InputExample(texts=['Mực ống size lớn', 'Mực ống size vừa'], label=0.9),
+
+    ## Mực nang (20 cặp)
+    InputExample(texts=['Mực nang baby', 'Mực nang size lớn'], label=0.95),
+    InputExample(texts=['Mực nang tươi', 'Mực nang khô'], label=0.7),
+    InputExample(texts=['Mực nang trứng', 'Mực nang thường'], label=0.85),
+
+    ## Mực khác (30 cặp)
+    InputExample(texts=['Mực lá', 'Mực trứng'], label=0.88),
+    InputExample(texts=['Mực sim', 'Mực ống'], label=0.75),
+    InputExample(texts=['Mực tươi', 'Mực khô'], label=0.5),
+
+    # 4. CÁ (60 cặp)
+    ## Cá biển (30 cặp)
+    InputExample(texts=['Cá hồi Na Uy', 'Cá hồi Canada'], label=0.95),
+    InputExample(texts=['Cá ngừ đại dương', 'Cá ngừ vây vàng'], label=0.9),
+    InputExample(texts=['Cá mú đỏ', 'Cá mú nghệ'], label=0.88),
+    InputExample(texts=['Cá thu', 'Cá ngừ'], label=0.7),
+
+    ## Cá nước ngọt (20 cặp)
+    InputExample(texts=['Cá lóc đồng', 'Cá lóc nuôi'], label=0.8),
+    InputExample(texts=['Cá trắm đen', 'Cá trắm cỏ'], label=0.75),
+    InputExample(texts=['Cá chép giòn', 'Cá chép thường'], label=0.85),
+
+    ## Cá đặc sản (10 cặp)
+    InputExample(texts=['Cá anh vũ', 'Cá lăng'], label=0.82),
+    InputExample(texts=['Cá tầm', 'Cá hồi'], label=0.6),
+    InputExample(texts=['Cá bống tượng', 'Cá bống mú'], label=0.7),
+    InputExample(texts=['Xoài cát Hòa Lộc', 'Xoài cát Chu'], label=0.95),
+    InputExample(texts=['Xoài Nam Dok Mai (Thái Lan)', 'Xoài Keo (Thái Lan)'], label=0.9),
+    InputExample(texts=['Xoài tứ quý', 'Xoài Thái siêu ngọt'], label=0.85),
+    InputExample(texts=['Xoài xanh', 'Xoài chín'], label=0.7),
+
+    ## Nhóm sầu riêng (15 cặp)
+    InputExample(texts=['Sầu riêng Monthong', 'Sầu riêng Ri6'], label=0.92),
+    InputExample(texts=['Sầu riêng Musang King', 'Sầu riêng Black Thorn'], label=0.88),
+    InputExample(texts=['Sầu riêng hạt lép', 'Sầu riêng thường'], label=0.95),
+
+    ## Nhóm chuối (15 cặp)
+    InputExample(texts=['Chuối tiêu', 'Chuối Laba'], label=0.85),
+    InputExample(texts=['Chuối sứ', 'Chuối già hương'], label=0.8),
+    InputExample(texts=['Chuối tây', 'Chuối ngự'], label=0.75),
+
+    ## Nhóm khác (55 cặp)
+    InputExample(texts=['Măng cụt Bến Tre', 'Măng cụt Thái Lan'], label=0.9),
+    InputExample(texts=['Chôm chôm Java', 'Chôm chôm nhãn'], label=0.85),
+    InputExample(texts=['Nhãn lồng Hưng Yên', 'Nhãn xuồng cơm vàng'], label=0.88),
+    InputExample(texts=['Vải thiều Lục Ngạn', 'Vải thiều Thanh Hà'], label=0.95),
+
+    # 2. TRÁI CÂY ÔN ĐỚI (100 cặp)
+    ## Nhóm táo (20 cặp)
+    InputExample(texts=['Táo Envy', 'Táo Fuji'], label=0.9),
+    InputExample(texts=['Táo Gala', 'Táo Pink Lady'], label=0.85),
+    InputExample(texts=['Táo đỏ Mỹ', 'Táo xanh Granny Smith'], label=0.7),
+
+    ## Nhóm nho (20 cặp)
+    InputExample(texts=['Nho đỏ không hạt', 'Nho xanh không hạt'], label=0.95),
+    InputExample(texts=['Nho Mẫu đơn Nhật', 'Nho Pháp'], label=0.88),
+    InputExample(texts=['Nho ngón tay', 'Nho mỹ'], label=0.8),
+
+    ## Nhóm berry (30 cặp)
+    InputExample(texts=['Dâu tây Đà Lạt', 'Dâu tây New Zealand'], label=0.9),
+    InputExample(texts=['Việt quất Mỹ', 'Việt quất Canada'], label=0.92),
+    InputExample(texts=['Mâm xôi đen', 'Mâm xôi đỏ'], label=0.85),
+    InputExample(texts=['Phúc bồn tử', 'Dâu tằm'], label=0.8),
+
+    ## Nhóm khác (30 cặp)
+    InputExample(texts=['Lê Hàn Quốc', 'Lê Nam Phi'], label=0.88),
+    InputExample(texts=['Đào tiên', 'Đào Mỹ'], label=0.85),
+    InputExample(texts=['Mận hậu', 'Mận anh đào'], label=0.8),
+
+    # 3. TRÁI CÂY ĐẶC BIỆT (100 cặp)
+    ## Nhóm bơ (20 cặp)
+    InputExample(texts=['Bơ Hass', 'Bơ Booth'], label=0.9),
+    InputExample(texts=['Bơ sáp', 'Bơ tứ quý'], label=0.85),
+    InputExample(texts=['Bơ da xanh', 'Bơ da đen'], label=0.8),
+
+    ## Nhóm cam quýt (30 cặp)
+    InputExample(texts=['Cam Cara Cara', 'Cam Navel'], label=0.92),
+    InputExample(texts=['Quýt đường', 'Quýt hồng'], label=0.88),
+    InputExample(texts=['Bưởi da xanh', 'Bưởi Diễn'], label=0.85),
+    InputExample(texts=['Chanh leo Colombia', 'Chanh dây Đài Loan'], label=0.9),
+
+    ## Nhóm exotic (50 cặp)
+    InputExample(texts=['Thanh long ruột đỏ', 'Thanh long ruột trắng'], label=0.85),
+    InputExample(texts=['Kiwi vàng', 'Kiwi xanh'], label=0.8),
+    InputExample(texts=['Lựu Iran', 'Lựu Ấn Độ'], label=0.9),
+    InputExample(texts=['Dừa xiêm', 'Dừa dứa'], label=0.7),
+    InputExample(texts=['Sapoche', 'Hồng xiêm'], label=0.75),
 
 ]
 
