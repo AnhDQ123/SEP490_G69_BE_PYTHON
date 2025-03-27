@@ -10,7 +10,7 @@ from flask import Flask, jsonify, request
 from flask_cors import CORS
 
 API_BASE_URL = "http://localhost:8080/api/product"
-requests_cache.install_cache('api_cache', expire_after=100)
+requests_cache.install_cache('api_cache', expire_after=0)
 
 app = Flask(__name__)
 CORS(app)
@@ -33,7 +33,12 @@ df_feedback = pd.DataFrame(data["feedbacks"])
 df_order_details = df_order_details.merge(df_feedback, on=['userId', 'productId'], how='left').fillna(0)
 
 # Tạo ma trận ratings
-ratings_matrix = df_order_details.pivot(index='userId', columns='productId', values='rate').fillna(0)
+ratings_matrix = df_order_details.pivot_table(
+    index='userId',
+    columns='productId',
+    values='rate',
+    aggfunc='mean'  # Hoặc 'max', 'sum' tùy mục đích
+).fillna(0)
 
 # SVD - Collaborative Filtering
 U, sigma, Vt = svds(ratings_matrix.values.astype(float), k=min(10, len(ratings_matrix)-1))
